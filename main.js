@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const gauthierTexture = new THREE.TextureLoader().load('gauthier.png');
+const gauthierTexture = new THREE.TextureLoader().load('gauthier.jpg');
 
 const gauthier = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: gauthierTexture }));
 
